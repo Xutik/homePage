@@ -5,12 +5,12 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Tahoma', serif;
 }
 
 header {
@@ -181,14 +181,14 @@ footer {
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
   }
   
   h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Tahoma', serif;
     margin-bottom: 1rem;
   }
   
@@ -223,10 +223,13 @@ footer {
   }
   
   .container {
+    justify-content: left;
+    align-items: center;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
   }
   
   /* Header styles */
@@ -248,7 +251,7 @@ footer {
   
   /* Main content styles */
   main {
-    padding: 2rem 0;
+    padding: 2rem 2rem;
   }
   
   section {
@@ -273,6 +276,7 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: auto;
   }
   
   .btn:hover {
@@ -303,6 +307,9 @@ footer {
   
   .project-card-content {
     padding: 1rem;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
   }
 
 /* Tablet styles */
